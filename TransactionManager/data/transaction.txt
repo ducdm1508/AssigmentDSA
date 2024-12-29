@@ -1,0 +1,5 @@
+lastId:3
+1,4323,111.0,Food,2024-12-28,INCOME
+1,12wqe,21.0,Transport,2024-12-28,EXPENSE
+3,mua ca,20.0,Food,2024-11-13,EXPENSE
+2,fwqrqw,23123.0,Utilities,2024-12-12,EXPENSE

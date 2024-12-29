@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.transactionmanager.Controller.ChartController"
+      spacing="15" style="-fx-padding: 20; -fx-alignment: center;" stylesheets="@../styles/chart.css"
+      VBox.vgrow="ALWAYS">
+
+    <HBox styleClass="hbox" spacing="10">
+        <ComboBox fx:id="monthComboBox" promptText="Select Month" styleClass="combo-box" />
+        <ComboBox fx:id="yearComboBox" promptText="Select Year" styleClass="combo-box" />
+        <Button text="Show Chart" onAction="#handleShowChart" styleClass="button" />
+    </HBox>
+
+    <BarChart fx:id="barChart" VBox.vgrow="ALWAYS" prefWidth="800" prefHeight="400" styleClass="bar-chart">
+        <xAxis>
+            <CategoryAxis fx:id="xAxis" label="Days" tickLabelRotation="45" tickLabelGap="10" />
+        </xAxis>
+        <yAxis>
+            <NumberAxis fx:id="yAxis" label="Amount" />
+        </yAxis>
+    </BarChart>
+</VBox>

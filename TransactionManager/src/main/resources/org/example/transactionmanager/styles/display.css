@@ -1,0 +1,91 @@
+/* General Styles */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f9f9f9;
+    -fx-text-fill: #333;  /* Đặt màu chữ chung cho toàn bộ ứng dụng */
+}
+
+/* VBox */
+.vbox {
+    -fx-padding: 20;
+    -fx-spacing: 20;
+}
+
+/* HBox */
+.search-hbox {
+    -fx-alignment: center;
+    -fx-spacing: 15;
+}
+
+/* TextField Styles */
+.search-field {
+    -fx-pref-width: 200;
+    -fx-padding: 5 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border-color: #ccc;
+    -fx-background-color: #fff;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;  /* Màu chữ trong TextField */
+}
+
+/* Button Styles */
+.search-button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;  /* Màu chữ của Button */
+    -fx-padding: 7 15;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.search-button:hover {
+    -fx-background-color: #005a9e;
+}
+
+/* MenuBar Styles */
+.menu-bar {
+    -fx-background-color: #e0e0e0;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.menu {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;  /* Màu chữ trong Menu */
+}
+
+.menu-item {
+    -fx-padding: 5 10;
+    -fx-font-size: 13px;
+    -fx-text-fill: #333;  /* Màu chữ trong MenuItem */
+}
+
+/* TableView Styles */
+.table-view {
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-table-cell-border-color: #ddd;
+    -fx-alternate-row-fill-visible: true;
+    -fx-alternate-row-fill: #f1f1f1;
+}
+
+.table-column {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-fill: #000;  /* Màu chữ trong các cột của TableView */
+}
+
+/* TableView Header */
+.table-view .column-header-background {
+    -fx-background-color: #0078d7; /* Màu nền của header */
+    -fx-text-fill: #000;  /* Màu chữ trong header của TableView */
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #000;  /* Màu chữ trong label của TableView */
+}

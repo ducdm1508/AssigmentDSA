@@ -1,0 +1,36 @@
+/* HBox */
+.hbox {
+    -fx-spacing: 5; /* Giảm khoảng cách giữa các nút */
+    -fx-padding: 5 10; /* Giảm padding xung quanh */
+    -fx-alignment: top-left; /* Căn nút sát lên trên */
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #ffffff; /* Nền trắng */
+    -fx-border-color: #1e90ff; /* Màu viền xanh */
+    -fx-border-radius: 5; /* Bo góc */
+    -fx-padding: 3; /* Giảm padding bên trong */
+    -fx-font-size: 12px; /* Kích thước chữ nhỏ hơn */
+    -fx-min-width: 80px; /* Đặt chiều rộng tối thiểu nhỏ hơn */
+}
+
+/* ComboBox hover */
+.combo-box:hover {
+    -fx-border-color: #6495ed; /* Đổi màu viền khi hover */
+}
+
+/* Button */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #1e90ff, #6495ed); /* Gradient xanh */
+    -fx-text-fill: white;
+    -fx-font-size: 12px; /* Chữ nhỏ hơn */
+    -fx-padding: 3 8; /* Giảm padding */
+    -fx-border-radius: 5;
+    -fx-min-width: 100px; /* Đặt chiều rộng tối thiểu */
+    -fx-cursor: hand;
+}
+
+.bar-chart .axis .tick-lable {
+    -fx-font-size: 10px;
+}

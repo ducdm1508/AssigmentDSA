@@ -1,0 +1,70 @@
+/* Đặt padding và margin cho VBox để có không gian hợp lý và căn giữa nội dung */
+VBox {
+    padding: 20px;
+    spacing: 15px;
+    alignment: center;
+}
+
+/* Tạo kiểu cho tiêu đề "Add New Transaction" */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4CAF50;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+/* Tạo kiểu cho các Label */
+Label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Tạo kiểu cho các TextField và ComboBox */
+TextField, ComboBox {
+    -fx-font-size: 14px;
+    -fx-pref-width: 250px;
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Tạo kiểu cho DatePicker */
+DatePicker {
+    -fx-font-size: 14px;
+    -fx-pref-width: 250px;
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Tạo kiểu cho Button */
+Button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s ease;
+}
+
+/* Hiệu ứng hover cho button */
+Button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Thêm không gian giữa các ô trong GridPane */
+GridPane {
+    padding: 20px;
+    grid-lines-visible: false;
+    alignment: center;
+}
+
+/* Thêm không gian giữa các phần tử trong GridPane */
+GridPane .label, GridPane .text-field, GridPane .combo-box {
+    -fx-padding: 5px;
+}
